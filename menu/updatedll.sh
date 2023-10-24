@@ -2,7 +2,7 @@
 # ==========================================
 cd
 rm -r updatedll
-wget -O updatedll "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/updatedll.sh"
+wget -O updatedll "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/updatedll.sh"
 rm -rf updatedll
 
 # hapus
@@ -13,17 +13,18 @@ rm -r updatedll
 # download
 #
 cd /usr/bin
-wget -O xmenu "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
-wget -O add-akun "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/add-akun.sh"
-wget -O updatedll "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/updatedll.sh"
-wget -O add-akun "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/add-akun.sh"
-wget -O delete-akun "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/delete-akun.sh"
+wget -O xmenu "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
+wget -O add-akun "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/add-akun.sh"
+wget -O updatedll "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/updatedll.sh"
+wget -O add-akun "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/add-akun.sh"
+wget -O delete-akun "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/delete-akun.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray/certv2ray.sh"
-wget -O restart-xray "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/restart-xray.sh"
-wget -O xmenu "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
-wget -O auto-pointing "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/auto-pointing.sh"
-wget -O cek-port "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/cek-port.sh"
-wget -O xmenu "https://raw.githubusercontent.com/justnotiyann/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
+wget -O restart-xray "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/restart-xray.sh"
+wget -O xmenu "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
+wget -O auto-pointing "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/auto-pointing.sh"
+wget -O cek-port "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/cek-port.sh"
+wget -O cek-port "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/user-aktif"
+wget -O xmenu "https://raw.githubusercontent.com/zulkarnain15/V2ray-X2ray-443-Fork/main/menu/xmenu.sh"
 
 #
 chmod +x /usr/bin/updatedll
@@ -37,5 +38,6 @@ chmod +x certv2ray
 chmod +x restart-xray
 chmod +x auto-pointing
 chmod +x cek-port
+chmod +x user-aktif
 
 cd
