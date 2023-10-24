@@ -43,6 +43,7 @@ echo "║ 14.Keluar Dari Menu       ┃ Exit Menu                            ║
 echo "║ 15.Info Script            ┃                                      ║"
 echo "║ 16.Auto Pointing Subdomain┃                                      ║"
 echo "║ 17.Cek Semua Layanan Port ┃ Check All Port Service               ║"
+echo "║ 18.Cek Semua akun         ┃ Check All account                    ║"
 echo "╚═════════════════════════════════════════════════════════════════╝" 
 read -p "     Select From Options [1-69 or x] :  " xmenu
 case $xmenu in 
@@ -96,6 +97,9 @@ auto-pointing
 ;;
 17)
 cek-port
+;;
+18)
+user-aktif
 ;;
 *)
 echo "Input The Correct Number !"
